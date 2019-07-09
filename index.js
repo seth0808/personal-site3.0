@@ -153,6 +153,10 @@ $(document).ready(function(){
     projects_dsdemoClicked = !projects_dsdemoClicked;
   });
 
+var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+if (iOS) {
+	alert("HEY!! This looks better on your laptop")
+}
 
 
 
