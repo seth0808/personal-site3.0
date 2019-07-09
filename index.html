@@ -22,6 +22,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <script src="./index.js"></script>
        
        
        
@@ -39,16 +41,16 @@
           <div class="container-fluid">
               <div class="row">
                   <div class="col-sm navBarCols">
-                    <a href="#subContentOneHeader">About Me</a>
+                    <a href="#subContentHeaderAboutMe">About Me</a>
                   </div>
                   <div class="col-sm navBarCols">
-                    <a href="#subContentTwoHeader">Projects</a>
+                    <a href="#subContentHeaderProjects">Projects</a>
                   </div>
                   <div class="col-sm navBarCols">
-                    <a href="#subContentThreeHeader">Videos</a>
+                    <a href="#subContentHeaderVideos">Videos</a>
                   </div>
                   <div class="col-sm navBarCols">
-                    <a href="#subContentFourHeader">Resume</a>
+                    <a href="#subContentHeaderResume">Resume</a>
                   </div>
                 </div>
               </div>
@@ -57,105 +59,130 @@
         <div id="content">
 
           <!-- About Me -->
-            <div id="subContentOneHeader">
+            <div id="subContentHeaderAboutMe" class="subContentHeader">
               About Me
             </div>
-              <div id="subContentOne">
+              <div class="subContent">
                   <div class="container-fluid">
                       <div class="row">
-                          <div class="col-sm">
-                            <video autoplay muted loop>
+                          <div id="aboutme_traveler"class="col-sm">
+                            <video id="aboutme_traveler_video" autoplay muted loop>
                                 <source src="assets/aboutme/japan.mp4" type="video/mp4">
                             </video>
-                            <p> Traveler </p>
+                            <p id="aboutme_traveler_p"> Traveler (27 Countries so far) </p>
                           </div>
-                          <div class="col-sm">
-                            <video autoplay muted loop>
+                          <div id="aboutme_developer" class="col-sm">
+                            <video id="aboutme_developer_video" autoplay muted loop>
                                 <source src="assets/aboutme/developer.mp4" type="video/mp4">
                             </video>
-                            <p> Developer </p>
+                            <p id="aboutme_developer_p"> Developer </p>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-sm">
-                            <video autoplay muted loop>
+                          <div id="aboutme_brother" class="col-sm">
+                            <video id="aboutme_brother_video" autoplay muted loop>
                                 <source src="assets/aboutme/brother.mp4" type="video/mp4">
                             </video>
-                            <p> Brother </p>
+                            <p id="aboutme_brother_p" > Brother </p>
                           </div>
-                          <div class="col-sm">
-                            <video autoplay muted loop>
+                          <div id="aboutme_athlete" class="col-sm">
+                            <video id="aboutme_athlete_video" autoplay muted loop>
                                 <source src="assets/aboutme/athlete.mp4" type="video/mp4">
                             </video>
-                            <p> Athlete </p>
+                            <p id="aboutme_athlete_p" > Athlete </p>
                           </div>
                         </div>
                         <div class="row">
-                          <div class="col-sm">
-                            <video autoplay muted loop>
+                          <div id="aboutme_cinematographer" class="col-sm">
+                            <video id="aboutme_cinematographer_video" autoplay muted loop>
                                 <source src="assets/aboutme/cinematographer.mp4" type="video/mp4">
                             </video>
-                            <p> Cinematographer </p>
+                            <p id="aboutme_cinematographer_p" > Cinematographer </p>
                           </div>
-                          <div class="col-sm">
-                            <video autoplay muted loop>
+                          <div id="aboutme_student" class="col-sm">
+                            <video id="aboutme_student_video" autoplay muted loop>
                                 <source src="assets/aboutme/student.mp4" type="video/mp4">
                             </video>
-                            <p> Student </p>
+                            <p id="aboutme_student_p"> Student - Junior at The University of Maryland </p>
                           </div>
                         </div>
                   </div>
               </div>
 
-              <!-- About Me -->
-            <div id="subContentOneHeader">
+              <!-- Projects -->
+            <div id="subContentHeaderProjects" class="subContentHeader">
               Projects
             </div>
-              <div id="subContentOne">
+              <div class="subContent">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div id="projects_gropdemo" class="col-sm">
+                            <video id="projects_gropdemo_video" autoplay muted loop>
+                                <source src="assets/projects/gropdemo.mp4" type="video/mp4">
+                            </video>
+                            <p id="projects_gropdemo_p"> Grop (Social Media) App </p>
+                          </div>
+                          <div id="projects_mazedemo" class="col-sm">
+                            <video id="projects_mazedemo_video" autoplay muted loop>
+                                <source src="assets/projects/mazedemo.mp4" type="video/mp4">
+                            </video>
+                            <p id="projects_mazedemo_p"> Dijkstra's Maze Solver </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div id="projects_nndemo" class="col-sm">
+                            <video id="projects_nndemo_video" autoplay muted loop>
+                                <source src="assets/projects/nndemo.mp4" type="video/mp4">
+                            </video>
+                            <p id="projects_nndemo_p" > Game Played by Neural Network </p>
+                          </div>
+                          <div id="projects_thissitedemo" class="col-sm">
+                            <video id="projects_thissitedemo_video" autoplay muted loop>
+                                <source src="assets/projects/thissitedemo.mp4" type="video/mp4">
+                            </video>
+                            <p id="projects_thissitedemo_p" > This Website </p>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div id="projects_dsdemo" class="col-sm">
+                            <video id="projects_dsdemo_video" autoplay muted loop>
+                                <source src="assets/projects/dsdemo.mp4" type="video/mp4">
+                            </video>
+                            <p id="projects_dsdemo_p"> Exploring Gun Violence with Data Science </p>
+                          </div>
+                          <div class="col-sm">
+                            <p style="margin: 50px"> More Coming - Languages I can use: Java (Spring, Apache Camel), JavaScript (React, React Native, Angular), Ruby, R, Python, C, OCaml, Rust, Assembly (* sheds tear *), Swift, SQL </p>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+
+              <!-- Videos -->
+              <div id="subContentHeaderVideos" class="subContentHeader">
+              Videos
+            </div>
+              <div class="subContent">
                   <div class="container-fluid">
                       <div class="row">
                           <div class="col-sm">
-                            One of three columns
+                            <p> About to post... </p>
                           </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
+                          
                         </div>
-                        <div class="row">
+                  </div>
+              </div>
+
+              <!-- Resume -->
+              <div id="subContentHeaderResume" class="subContentHeader">
+              Resume
+            </div>
+              <div class="subContent">
+                  <div class="container-fluid">
+                      <div class="row">
                           <div class="col-sm">
-                            One of three columns
+                            <p> Sorry, but this bad boy is being updated </p>
                           </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
-                          <div class="col-sm">
-                            One of three columns
-                          </div>
+                          
                         </div>
                   </div>
               </div>

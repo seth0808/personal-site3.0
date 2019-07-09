@@ -8,17 +8,17 @@ var c = canvas.getContext('2d');
 class Circle {
 	constructor() {
 		if (Math.random() < 0.5){
-			this.xVel = Math.random() * -15
+			this.xVel = Math.random() * -10
 			this.xAcc = -0.1
 		}else {
-			this.xVel = Math.random() * 15
+			this.xVel = Math.random() * 10
 			this.xAcc = 0.1
 		}
 		if (Math.random() < 0.5){
-			this.yVel = Math.random() * -15
+			this.yVel = Math.random() * -10
 			this.yAcc = -0.1
 		}else {
-			this.yVel = Math.random() * 15
+			this.yVel = Math.random() * 10
 			this.yAcc = 0.1
 		}
 		this.radius = Math.random() * 3
@@ -28,17 +28,17 @@ class Circle {
 	}
 	reset() {
 		if (Math.random() < 0.5){
-			this.xVel = Math.random() * -15
+			this.xVel = Math.random() * -10
 			this.xAcc = -0.1
 		}else {
-			this.xVel = Math.random() * 15
+			this.xVel = Math.random() * 10
 			this.xAcc = 0.1
 		}
 		if (Math.random() < 0.5){
-			this.yVel = Math.random() * -15
+			this.yVel = Math.random() * -10
 			this.yAcc = -0.1
 		}else {
-			this.yVel = Math.random() * 15
+			this.yVel = Math.random() * 10
 			this.yAcc = 0.1
 		}
 		this.radius = Math.random() * 3
