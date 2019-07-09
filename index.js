@@ -144,7 +144,7 @@ if (iOS) {
   	if (projects_gropdemoClicked){
   		$("#projects_gropdemo_video").remove()
     	$("#projects_gropdemo_p").remove()
-    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U :( The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
+    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U (Wow that\'s lame) The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
   	}else {
     	$("#projects_gropdemo_newp").remove()
     	$("#projects_gropdemo_link").remove()
@@ -296,7 +296,7 @@ $(document).ready(function(){
   	if (projects_gropdemoClicked){
   		$("#projects_gropdemo_video").remove()
     	$("#projects_gropdemo_p").remove()
-    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U :( The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
+    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U (Wow that\'s lame) The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
   	}else {
     	$("#projects_gropdemo_newp").remove()
     	$("#projects_gropdemo_link").remove()
