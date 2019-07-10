@@ -15,9 +15,14 @@ var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 if (iOS) {
 	alert("Me: HEY!! This looks better on your laptop\nYou: Why?\nMe: Your mobile browser is not compatible with many of the video effects that I use. Instead you get to look at these boring images")
 	$(document).ready(function(){
+
+		$('html').append("<img style='position: absolute; left: -10px; top: 300px; height: 100px; width: 100px' src='assets/pressit.png'>")
+
+		$('html').append("<img style='position: absolute; left: 0px; top: 45px; height: 100px; width: 100px' src='assets/scrollhere.png'>")
+
 		$("#aboutme_traveler_video").remove()
 		$("#aboutme_traveler_p").remove()
-		$("#aboutme_traveler").append("<img style='width: 100%; height: 80%' id='aboutme_traveler_video' src='assets/aboutme/photos/japan.png'><p id='aboutme_traveler_p'> Traveler (27 Countries so far) </p>")
+		$("#aboutme_traveler").append("<img style='width: 100%; height: 80%' id='aboutme_traveler_video' src='assets/aboutme/photos/japan.png'><p id='aboutme_traveler_p'> Traveler (27 Countries So Far) </p>")
 
 		$("#aboutme_developer_video").remove()
 		$("#aboutme_developer_p").remove()
@@ -68,7 +73,7 @@ if (iOS) {
   	}else {
     	$("#aboutme_traveler_newp").remove()
     	$("#aboutme_traveler_link").remove()
-    	$("#aboutme_traveler").append("<img style='width: 100%; height: 80%' id='aboutme_traveler_video' src='assets/aboutme/photos/japan.png'><p id='aboutme_traveler_p'> Traveler (27 Countries so far) </p>")
+    	$("#aboutme_traveler").append("<img style='width: 100%; height: 80%' id='aboutme_traveler_video' src='assets/aboutme/photos/japan.png'><p id='aboutme_traveler_p'> Traveler (27 Countries So Far) </p>")
   	}
     aboutme_travelerClicked = !aboutme_travelerClicked;
   });
@@ -220,7 +225,7 @@ $(document).ready(function(){
   	}else {
     	$("#aboutme_traveler_newp").remove()
     	$("#aboutme_traveler_link").remove()
-    	$("#aboutme_traveler").append("<video id='aboutme_traveler_video' autoplay muted loop><source src='assets/aboutme/japan.mp4' type='video/mp4'></video><p id='aboutme_traveler_p'> Traveler (27 Countries so far) </p>")
+    	$("#aboutme_traveler").append("<video id='aboutme_traveler_video' autoplay muted loop><source src='assets/aboutme/japan.mp4' type='video/mp4'></video><p id='aboutme_traveler_p'> Traveler (27 Countries So Far) </p>")
   	}
     aboutme_travelerClicked = !aboutme_travelerClicked;
   });
