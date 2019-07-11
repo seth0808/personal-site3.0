@@ -16,6 +16,13 @@ if (iOS) {
 	alert("Me: HEY!! This looks better on your laptop\nYou: Why?\nMe: Your mobile browser is not compatible with many of the video effects that I use. Instead you get to look at these boring images")
 	$(document).ready(function(){
 
+		$("#content").css("left", "0");
+		$("#content").css("right", "0");
+		$("#content").css("bottom", "0");
+
+		$(".col-sm").css("overflow", "hidden");
+
+
 		$('html').append("<img style='position: absolute; left: -10px; top: 300px; height: 100px; width: 100px' src='assets/pressit.png'>")
 
 		$('html').append("<img style='position: absolute; left: 0px; top: 45px; height: 100px; width: 100px' src='assets/scrollhere.png'>")
