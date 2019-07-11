@@ -210,7 +210,7 @@ if (iOS) {
   	if (projects_dsdemoClicked){
   		$("#projects_dsdemo_video").remove()
     	$("#projects_dsdemo_p").remove()
-    	$("#projects_dsdemo").append("<p id='projects_dsdemo_newp'>I think I spent 36 hours straight (literaly) making this entire project. They put the deadline in between finals. But now I think what I found is pretty interesting, so check it out</p> <a id='projects_dsdemo_link' href='https://seth0808.github.io/data_science_320_final/'>Data Science Final</a>")
+    	$("#projects_dsdemo").append("<p id='projects_dsdemo_newp'> I don\'t remember sleeping while making this project. They put the deadline in between finals. But now I think what I found is pretty interesting, so check it out</p> <a id='projects_dsdemo_link' href='https://seth0808.github.io/data_science_320_final/'>Data Science Final</a>")
   	}else {
     	$("#projects_dsdemo_newp").remove()
     	$("#projects_dsdemo_link").remove()
@@ -362,7 +362,7 @@ $(document).ready(function(){
   	if (projects_dsdemoClicked){
   		$("#projects_dsdemo_video").remove()
     	$("#projects_dsdemo_p").remove()
-    	$("#projects_dsdemo").append("<p id='projects_dsdemo_newp'>I think I spent 36 hours straight (literaly) making this entire project. They put the deadline in between finals. But now I think what I found is pretty interesting, so check it out</p> <a id='projects_dsdemo_link' href='https://seth0808.github.io/data_science_320_final/'>Data Science Final</a>")
+    	$("#projects_dsdemo").append("<p id='projects_dsdemo_newp'> I don\'t remember sleeping while making this project. They put the deadline in between finals. But now I think what I found is pretty interesting, so check it out</p> <a id='projects_dsdemo_link' href='https://seth0808.github.io/data_science_320_final/'>Data Science Final</a>")
   	}else {
     	$("#projects_dsdemo_newp").remove()
     	$("#projects_dsdemo_link").remove()
