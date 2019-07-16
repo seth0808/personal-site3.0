@@ -12,7 +12,7 @@ var projects_thissitedemoClicked = true;
 var projects_dsdemoClicked = true;
 
 var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-if (true) {
+if (iOS) {
 	$(document).ready(function(){
 
 		$("#content").css("left", "0");
