@@ -125,7 +125,7 @@ if (iOS) {
   	if (aboutme_athleteClicked){
   		$("#aboutme_athlete_video").remove()
     	$("#aboutme_athlete_p").remove()
-    	$("#aboutme_athlete").append("<p id='aboutme_athlete_newp'> Yeah... intramurals will never compare to varsity soccer. I\'ll join any sport you have in mind except the 800 meter. Winter track was a nightmare</p>")
+    	$("#aboutme_athlete").append("<p id='aboutme_athlete_newp'> Yeah... intramurals will never compare to varsity soccer. I\'ll join any sport you have in mind. Currently doing intramural softball and soccer!</p>")
   	}else {
     	$("#aboutme_athlete_newp").remove()
     	$("#aboutme_athlete").append("<img style='width: 100%; height: 80%' id='aboutme_athlete_video' src='assets/aboutme/photos/athlete.png'><p id='aboutme_athlete_p'> Athlete </p>")
@@ -137,7 +137,7 @@ if (iOS) {
   	if (aboutme_cinematographerClicked){
   		$("#aboutme_cinematographer_video").remove()
     	$("#aboutme_cinematographer_p").remove()
-    	$("#aboutme_cinematographer").append("<p id='aboutme_cinematographer_newp'>Ever since my TV production teacher in 9th grade had to watch my garbage videos, I\'ve loved making them. I plan to populate the video section below very soon</p>")
+    	$("#aboutme_cinematographer").append("<p id='aboutme_cinematographer_newp'>Ever since my TV production class in 9th grade, I\'ve loved making them. I plan to populate the video section below very soon</p>")
   	}else {
     	$("#aboutme_cinematographer_newp").remove()
     	$("#aboutme_cinematographer").append("<img style='width: 100%; height: 80%' id='aboutme_cinematographer_video' src='assets/aboutme/photos/cinematographer.png'><p id='aboutme_cinematographer_p'> Cinematographer </p>")
@@ -163,7 +163,7 @@ if (iOS) {
   	if (projects_gropdemoClicked){
   		$("#projects_gropdemo_video").remove()
     	$("#projects_gropdemo_p").remove()
-    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U (Wow that\'s lame) The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
+    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U. The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
   	}else {
     	$("#projects_gropdemo_newp").remove()
     	$("#projects_gropdemo_link").remove()
@@ -277,7 +277,7 @@ $(document).ready(function(){
   	if (aboutme_athleteClicked){
   		$("#aboutme_athlete_video").remove()
     	$("#aboutme_athlete_p").remove()
-    	$("#aboutme_athlete").append("<p id='aboutme_athlete_newp'> Yeah... intramurals will never compare to varsity soccer. I\'ll join any sport you have in mind except the 800 meter. Winter track was a nightmare</p>")
+    	$("#aboutme_athlete").append("<p id='aboutme_athlete_newp'> Yeah... intramurals will never compare to varsity soccer. I\'ll join any sport you have in mind. Currently doing intramural softball and soccer!</p>")
   	}else {
     	$("#aboutme_athlete_newp").remove()
     	$("#aboutme_athlete").append("<video id='aboutme_athlete_video' autoplay muted loop><source src='assets/aboutme/athlete.mp4' type='video/mp4'></video><p id='aboutme_athlete_p'> Athlete </p>")
@@ -289,7 +289,7 @@ $(document).ready(function(){
   	if (aboutme_cinematographerClicked){
   		$("#aboutme_cinematographer_video").remove()
     	$("#aboutme_cinematographer_p").remove()
-    	$("#aboutme_cinematographer").append("<p id='aboutme_cinematographer_newp'>Ever since my TV production teacher in 9th grade had to watch my garbage videos, I\'ve loved making them. I plan to populate the video section below very soon</p>")
+    	$("#aboutme_cinematographer").append("<p id='aboutme_cinematographer_newp'>Ever since my TV production class in 9th grade, I\'ve loved making them. I plan to populate the video section below very soon</p>")
   	}else {
     	$("#aboutme_cinematographer_newp").remove()
     	$("#aboutme_cinematographer").append("<video id='aboutme_cinematographer_video' autoplay muted loop><source src='assets/aboutme/cinematographer.mp4' type='video/mp4'></video><p id='aboutme_cinematographer_p'> Cinematographer </p>")
@@ -315,7 +315,7 @@ $(document).ready(function(){
   	if (projects_gropdemoClicked){
   		$("#projects_gropdemo_video").remove()
     	$("#projects_gropdemo_p").remove()
-    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U (Wow that\'s lame) The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
+    	$("#projects_gropdemo").append("<p id='projects_gropdemo_newp'>I\'m really into iOS development. This is a generic social media app that I challenged my self to build last summer. Functions ok, but definitely needs improvement. It\'s called GROP because it\'s for GROUPS that still need U. The code isn\'t up yet, but for now you can check out this really old app I made for my dining hall.</p> <a id='projects_gropdemo_link' target='_blank' href='https://github.com/seth0808/Diner2.0'>GitHub</a>")
   	}else {
     	$("#projects_gropdemo_newp").remove()
     	$("#projects_gropdemo_link").remove()
